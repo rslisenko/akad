@@ -1,0 +1,182 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		// The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+		title AKAD.
+		link(rel='icon', href='favicon.ico')
+		// Bootstrap
+		link(href='assets/css/style.css', rel='stylesheet')
+		//if lt IE 9
+			script(src='https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js')
+			script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+	body
+		// BEGIN ba-intro
+		.ba-intro.ba-intro--home(style='background-image: url(assets/images/intro-bg.jpg)')
+			include _main-menu.jade
+			// BEGIN container
+			.container
+				// BEGIN ba-intro__body
+				.ba-intro__body
+					h1.ba-intro__title
+						span
+							small WE'RE
+							|   						CREATIVE AGENCY
+					p
+						| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						br
+						| tempor incididunt ut labore et dolore magna aliqua.
+				// END ba-intro__body
+				// BEGIN ba-intro-about
+				.ba-intro-about
+					// BEGIN row
+					.row
+						// BEGIN col-sm-6
+						.col-sm-6
+							img(src='assets/images/intro-about.jpg', alt='History of agency')
+						// END col-sm-6
+						// BEGIN col-sm-6
+						.col-sm-6
+							h2.ba-title
+								span HISTORY OF AGENCY
+							p
+								| Porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi modi tempora incidunt ut labore.
+							.text-right
+								a.btn.btn-primary(href='about.html') READ MORE
+						// END col-sm-6
+					// END row
+				// END ba-intro-about
+			// END container
+		// END ba-intro
+		main
+			section.ba-section
+				.container
+					// BEGIN ba-section__content
+					.ba-section__content
+						h2.ba-title.text-center
+							span Why chose us
+						p
+							| Lorem ipsum dolor sit amet,  adipisicing elit, sed do eiusmod incididunt ut labore et dolore magna.
+					// END ba-section__content
+					// BEGIN row
+					.row
+						// BEGIN col-sm-3
+						.col-sm-3.col-xs-6
+							// BEGIN ba-service
+							.ba-service
+								// BEGIN
+								.ba-service__icon.ion-ios-infinite-outline
+								// END
+								h3.ba-service__title unlimited options
+								ul.ba-service__list
+									li Branding
+									li Design & Copywriting
+									li Concept development
+									li User Experience
+							// END ba-service
+							// BEGIN ba-service
+							.ba-service
+								// BEGIN
+								.ba-service__icon.ion-ios-cart-outline
+								// END
+								h3.ba-service__title e-commerce
+								ul.ba-service__list
+									li Prototyping
+									li Technical Consulting
+									li Web applications
+									li Quality testing
+							// END ba-service
+						// END col-sm-3
+						// BEGIN col-sm-3
+						.col-sm-3.col-xs-6
+							// BEGIN ba-service
+							.ba-service
+								// BEGIN
+								.ba-service__icon.ion-ios-infinite-outline
+								// END
+								h3.ba-service__title unlimited options
+								ul.ba-service__list
+									li Branding
+									li Design & Copywriting
+									li Concept development
+									li User Experience
+							// END ba-service
+							// BEGIN ba-service
+							.ba-service
+								// BEGIN
+								.ba-service__icon.ion-ios-cart-outline
+								// END
+								h3.ba-service__title e-commerce
+								ul.ba-service__list
+									li Prototyping
+									li Technical Consulting
+									li Web applications
+									li Quality testing
+							// END ba-service
+						// END col-sm-3
+						// BEGIN col-sm-5
+						.col-sm-5.col-sm-offset-1
+							img(src='assets/images/room.jpg', alt='Room')
+						// END col-sm-5
+					// END row
+			section.ba-section
+				// BEGIN container
+				.container
+					// BEGIN ba-section__content
+					.ba-section__content
+						h2.ba-title.text-center
+							span Our portfolio
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					// END ba-section__content
+					// BEGIN row
+					.row
+						// BEGIN col-sm-3
+						.col-sm-3
+							h3 CHOSE CATEGORY
+							ul.ba-portfolio-filter
+								li
+									a.active(data-filter='*', href='#') All
+								li
+									a(data-filter='.webdesign', href='#') webdesign
+								li
+									a(data-filter='.graphic-design', href='#') graphic design
+								li
+									a(data-filter='.fashion', href='#') Fashion
+								li
+									a(data-filter='.logo-design', href='#') Logo design
+								li
+									a(data-filter='.advertising', href='#') Advertising
+						// END col-sm-3
+						// BEGIN col-sm-9
+						.col-sm-9
+							// BEGIN
+							.ba-portfolio-grid
+								.ba-portfolio-grid__item.webdesign
+									img(src='assets/images/works/work1.jpg', alt='')
+								.ba-portfolio-grid__item.webdesign.graphic-design
+									img(src='assets/images/works/work2.jpg', alt='')
+								.ba-portfolio-grid__item.graphic-design
+									img(src='assets/images/works/work3.jpg', alt='')
+								.ba-portfolio-grid__item.fashion
+									img(src='assets/images/works/work4.jpg', alt='')
+								.ba-portfolio-grid__item.graphic-design
+									img(src='assets/images/works/work5.jpg', alt='')
+								.ba-portfolio-grid__item.fashion.logo-design
+									img(src='assets/images/works/work6.jpg', alt='')
+								.ba-portfolio-grid__item.logo-design.fashion
+									img(src='assets/images/works/work7.jpg', alt='')
+								.ba-portfolio-grid__item.logo-design
+									img(src='assets/images/works/work8.jpg', alt='')
+								.ba-portfolio-grid__item.advertising.fashion
+									img(src='assets/images/works/work9.jpg', alt='')
+							// END
+						// END col-sm-9
+					// END row
+				// END container
+			include _subscribe.jade
+			include _footer.jade
+
+		include _scripts.jade

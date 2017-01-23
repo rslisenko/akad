@@ -1,0 +1,77 @@
+.ba-sidebar
+	form.ba-form.form-horizontal
+		input(type="text", class="form-control ba-form__search-text" placeholder="Search...")
+		button(type="submit" class="btn ba-search-form__search-btn")
+	.ba-posts
+		h3 posts
+		ul.nav.nav-tabs
+			li.active
+				a(href="#latest" data-toggle="tab") latest
+			li
+				a(href="#popular" data-toggle="tab") popular
+			li
+				a(href="#comments" data-toggle="tab") comments
+		.tab-content
+			ul#latest.tab-pane.fade.in.active
+				li
+					a(href="#")
+						.tab-content__img
+							img(src="assets/images/tabs/tab-img.jpg" alt="t1")
+						.tab-content__desc
+							h4 Magna mollis ultricies
+							date 3th oct 2012
+					a(href="#")
+						.tab-content__img
+							img(src="assets/images/tabs/tab-img.jpg" alt="t1")
+						.tab-content__desc
+							h4 Magna mollis ultricies
+					a(href="#")
+						.tab-content__img
+							img(src="assets/images/tabs/tab-img.jpg" alt="t1")
+						.tab-content__desc
+							h4 Magna mollis ultricies
+							date 3th oct 2012
+
+			li#popular.tab-pane
+				h4 2
+			li#comments.tab-pane
+				h4 3
+
+	.ba-categories
+		h4 Categories
+		ul.ba-categories__list
+			li
+				a(href="#" class="ba-categories__list-item") Business
+					span 15
+			li
+				a(href="#" class="ba-categories__list-item") Photography
+					span 17
+			li
+				a(href="#" class="ba-categories__list-item") Journal
+					span 22
+			li
+				a(href="#" class="ba-categories__list-item") Web Development
+					span 33
+	.ba-tags
+		h4 Tags
+		a(href="#") css
+		a(href="#") javascript
+		a(href="#") jquery
+		a(href="#") html5
+		a(href="#") bootstrap
+		a(href="#") scss
+		a(href="#") ruby
+		a(href="#") jade
+	.ba-archives
+		h4 Archives
+		ul.ba-archives__list
+			li
+				a(href="#" class="ba-archives__list-item") Business
+					span 3
+				a(href="#" class="ba-archives__list-item") Photography
+					span 13
+				a(href="#" class="ba-archives__list-item") Journal
+					span 11
+				a(href="#" class="ba-archives__list-item") Web Development
+					span 21
+

@@ -1,0 +1,30 @@
+doctype html
+html
+	head
+		meta(charset="utf-8")
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title About - AKAD.
+		link(rel='icon', href='favicon.ico')
+		link(href='assets/css/style.css', rel='stylesheet')
+	body
+		.ba-intro(style="background-image:url(assets/images/about-bg.jpg)")
+			include _main-menu.jade
+			.container
+				.ba-intro__body
+					h1.ba-page-title Services
+					ol.breadcrumb
+						li
+							a(href="index.html") Home
+						li.active Services
+		main
+			section.ba-section
+				.container
+					.row
+
+			include _subscribe.jade
+			include _footer.jade
+
+		include _scripts.jade
+
+

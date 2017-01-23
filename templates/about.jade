@@ -1,0 +1,175 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title About - AKAD.
+		link(rel='icon', href='favicon.ico')
+		link(href='assets/css/style.css', rel='stylesheet')
+	body
+		// BEGIN ba-intro
+		.ba-intro(style='background-image: url(assets/images/about-bg.jpg)')
+			include _main-menu.jade
+			// BEGIN container
+			.container
+				// BEGIN ba-intro__body
+				.ba-intro__body
+					h1.ba-page-title
+						| About us
+					ol.breadcrumb
+						li
+							a(href="index.html")
+								| Home
+						li.active
+							| About
+			// END container
+		// END ba-intro
+		main
+			section.ba-section.ba-about
+				.container
+					.row
+						.col-sm-6
+							h2.ba-title
+								span About us
+							h3.ba-sub-title We are awesome
+							p
+								| Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+						.col-sm-6
+							h2.ba-title
+								span What We Do
+							h3.ba-sub-title Creative &amp; Digital
+							p
+								| Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+
+			section.ba-section.ba-section--benefits
+				.container
+					.ba-section__content
+						h2.ba-title.text-center
+							span some benefits
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.row
+						.col-sm-4
+							.ba-benefit
+								.ba-benefit__icon.ion-iphone
+								h3.ba-benefit__title FULLY RESPONSIVE
+								p
+									| Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eleifend suscipit enim, eu commodo neque molestie vitae.
+						.col-sm-4
+							.ba-benefit
+								.ba-benefit__icon.ion-ios-infinite-outline
+								h3.ba-benefit__title UNLIMITED OPTIONS
+								p
+									| Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eleifend suscipit enim, eu commodo neque molestie vitae.
+						.col-sm-4
+							.ba-benefit
+								.ba-benefit__icon.ion-social-wordpress-outline
+								h3.ba-benefit__title WORDPRESS
+								p
+									| Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eleifend suscipit enim, eu commodo neque molestie vitae.
+					.row
+						.col-sm-4
+							.ba-benefit
+								.ba-benefit__icon.ion-ios-cart-outline
+								h3.ba-benefit__title E-commerce
+								p
+									| Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eleifend suscipit enim, eu commodo neque molestie vitae.
+						.col-sm-4
+							.ba-benefit
+								.ba-benefit__icon.ion-ios-settings
+								h3.ba-benefit__title CUSTOMIZABLE DESIGN
+								p
+									| Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eleifend suscipit enim, eu commodo neque molestie vitae.
+						.col-sm-4
+							.ba-benefit
+								.ba-benefit__icon.ion-settings
+								h3.ba-benefit__title SUPPORT
+								p
+									| Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In eleifend suscipit enim, eu commodo neque molestie vitae.
+			section.ba-section
+				.container
+					.ba-section__content
+						h2.ba-title.text-center
+							span THE DREAM TEAM
+						p
+							| Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					.row.ba-team
+						// BEGIN col-sm-3
+						.col-sm-3.col-xs-6
+							img(src="assets/images/team/team1.jpg", alt="Team")
+						.col-sm-3.col-xs-6
+							img(src="assets/images/team/team2.jpg", alt="Team")
+						.col-sm-3.col-xs-6
+							img(src="assets/images/team/team3.jpg", alt="Team")
+						.col-sm-3.col-xs-6
+							img(src="assets/images/team/team4.jpg", alt="Team")
+					.row.ba-team
+						// BEGIN col-sm-3
+						.col-sm-3.col-xs-6
+							img(src="assets/images/team/team5.jpg", alt="Team")
+						.col-sm-3.col-xs-6
+							img(src="assets/images/team/team6.jpg", alt="Team")
+						.col-sm-3.col-xs-6
+							img(src="assets/images/team/team7.jpg", alt="Team")
+						.col-sm-3.col-xs-6
+							img(src="assets/images/team/team8.jpg", alt="Team")
+					.ba-callout
+						p
+							| Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+						a.btn.btn-primary READ MORE
+			section.ba-section
+				.container
+					.row
+						.col-md-6
+							.ba-testimonials
+								.ba-testimonials__slide
+									.ba-testimonial
+										.ba-testimonial__img
+											img(src="assets/images/testimonials/client-user.jpg", alt="")
+										p
+											| Quisque iaculis lorem vestibulum eros vehicula, non congue elit dictum. Donec mollis aliquet lorem, eu porttitor sapien semper in. Duis ac erat luctus, gravida lectus sit amet, consectetur orci. Suspendisse libero mauris.
+										a.btn.btn-primary.ba-testimonial__name John doe
+								.ba-testimonials__slide
+									.ba-testimonial
+										.ba-testimonial__img
+											img(src="assets/images/testimonials/client-user.jpg", alt="")
+										p
+											| Quisque iaculis lorem vestibulum eros vehicula, non congue elit dictum. Donec mollis aliquet lorem, eu porttitor sapien semper in. Duis ac erat luctus, gravida lectus sit amet, consectetur orci. Suspendisse libero mauris.
+										a.btn.btn-primary.ba-testimonial__name John doe
+								.ba-testimonials__slide
+									.ba-testimonial
+										.ba-testimonial__img
+											img(src="assets/images/testimonials/client-user.jpg", alt="")
+										p
+											| Quisque iaculis lorem vestibulum eros vehicula, non congue elit dictum. Donec mollis aliquet lorem, eu porttitor sapien semper in. Duis ac erat luctus, gravida lectus sit amet, consectetur orci. Suspendisse libero mauris.
+										a.btn.btn-primary.ba-testimonial__name John doe
+								.ba-testimonials__slide
+									.ba-testimonial
+										.ba-testimonial__img
+											img(src="assets/images/testimonials/client-user.jpg", alt="")
+										p
+											| Quisque iaculis lorem vestibulum eros vehicula, non congue elit dictum. Donec mollis aliquet lorem, eu porttitor sapien semper in. Duis ac erat luctus, gravida lectus sit amet, consectetur orci. Suspendisse libero mauris.
+										a.btn.btn-primary.ba-testimonial__name John doe
+						.col-md-6
+							.ba-clients
+								.ba-clients__item
+									img(src="assets/images/clients/client1.jpg", alt="")
+								.ba-clients__item
+									img(src="assets/images/clients/client2.jpg", alt="")
+								.ba-clients__item
+									img(src="assets/images/clients/client3.jpg", alt="")
+								.ba-clients__item
+									img(src="assets/images/clients/client4.jpg", alt="")
+								.ba-clients__item
+									img(src="assets/images/clients/client5.jpg", alt="")
+								.ba-clients__item
+									img(src="assets/images/clients/client6.jpg", alt="")
+
+			include _subscribe.jade
+			include _footer.jade
+
+		include _scripts.jade
+
+
+

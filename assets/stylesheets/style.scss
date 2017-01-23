@@ -293,8 +293,9 @@ main{
 			color: #9a9a9a;
 			a {
 				display: block;
+				color: #555;
 				&:hover {
-					color: #555;
+					color: #7beec7;
 				}
 			}
 		}
@@ -306,6 +307,7 @@ main{
 		flex-wrap: wrap;
 	}
 	&__copyright {
+		text-transform: uppercase;
 		@media screen and (max-width: $screen-sm-min) {
 			order: 2;
 			width: 100%;
@@ -326,7 +328,6 @@ main{
 				opacity: 0.6;
 				&:hover {
 					opacity: 0.9;
-					//color: #555;
 				}
 				img {
 					width: 20px;

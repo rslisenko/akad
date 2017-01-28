@@ -6,7 +6,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700,800");
-@import url("http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
+@import url("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -4139,6 +4139,10 @@ img {
 
 main {
   padding-top: 150px;
+}
+
+.ba-section {
+  margin-top: 30px;
 }
 
 .ba-section--benefits {

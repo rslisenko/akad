@@ -1,7 +1,7 @@
 @import "bootstrap-variables";
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700,800');
-@import url('http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
+@import url('https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css');
 
 img{
 	max-width: 100%;
@@ -152,6 +152,7 @@ main{
 	padding-top: 150px;
 }
 .ba-section{
+	margin-top: 30px;
 	// margin-bottom: 150px;
 	// margin-bottom: 20px;
 	&--benefits{
